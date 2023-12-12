@@ -1,7 +1,7 @@
 
 #include  <stdint.h>
 
-// Code below from
+// Unedited code below from
 // https://embeddedgurus.com/stack-overflow/2010/10/median-filtering/
 
 

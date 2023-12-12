@@ -25,6 +25,8 @@
    - reorder of indexes
   These purposes can be achieved (with a simple algorithm) in a single 
   pass.
+
+  -- Sample data
   Take as an example a size FILT_SIZE == 13, and the following input
   data (note: 16 values)
     { 7,   12,    0,    7,    8,   13,   12,   12,
@@ -45,7 +47,8 @@
     10. (  12 @ 6)
     11. (  13 @ 5)
     12. (  17 @ 10)
-  with a median value from last mfs() = 9 in sort order 6
+  with a median value from last mfs() = 9 in sort order 6 (here
+  coincident with last data sample, as marked by '<')
  */
 
 #define  FILT_SIZE  13          // Filter size
